@@ -1725,66 +1725,31 @@ label form [type='radio'] {
   }
 }
 
-.five-day-card {
-  position: relative;
-  width: 20%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.weather-img {
-  border-style: none;
-  vertical-align: middle;
-}
-
-.history-btn {
-  text-align: center;
-  display: inline-block;
-  padding: 0.5rem 1.2rem;
-  margin: 0.5rem;
-  width: 100%;
-  text-decoration: none;
-  font-size: 1rem;
-  border-radius: 0.3rem;
-  border: 1px solid transparent;
-  outline: none;
-  color: #1a1a1a;
-  background-color: #aeaeae;
-  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-}
-
 .search-button {
-  /* text-align: inherit; */
-  margin: 0.5rem;
-  width: 100%;
-  background-color: #5098e6;
-  color: #d9e9e8;
-}
-
-.weather-search {
-  width: 100%;
-  padding: 0.75rem;
-  margin: 0.5rem !important;
-  color: #1a1a1a;
-  background-color: #ffffff;
-  margin: 0.625rem 0;
-  font-size: 1.2rem;
-  border: 1px solid #484848;
-  border-radius: 0.3rem;
-}
-
-#form-heading {
-  margin: 0.5rem;
+  margin: auto;
+  background-color: red;
+  color: white ;
+  font-weight: 700;
 }
 
 .weather-hr {
-  margin-left: 0.5rem;
   width: 100%;
 }
 
 .weather-header {
-  background: #20084a;
-  background: -webkit-linear-gradient(right, #20084a, #3463bc);
-  background: -moz-linear-gradient(right, #20084a, #3463bc);
-  background: linear-gradient(to left, #20084a, #3463bc);
+  background: linear-gradient(to right, red, black)
+}
+
+header h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding-left: 25px;
+}
+
+.search-text{
+  padding-left: 25px;
+}
+
+aside{
+  margin-left: 25px;
 }
